@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of a DevOps Engineer showcasing skills, projects, and contact information" />
+  <title>DevOps Engineer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="loader">
+    <i class="fas fa-cogs fa-spin"></i>
+    <p class="loader-message">Empowering your infrastructure with<br>automation, innovation, and cloud-first solutions</p>
+  </div>
+
+  <nav class="glass">
+    <div class="logo">DevOps Portfolio  <i class="fa-regular fa-file"></i></div>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="intro">
+    <h1 class="animate-entry">
+      Hello, I'm <span class="highlight">Abhishek</span>, a passionate DevOps Engineer.
+    </h1>
+    <p class="animate-entry-delay">
+      I build scalable, automated infrastructure solutions with a focus on IaC, CI/CD and cloud-native
+      technologies.
+    </p>
+    <a href="resume.pdf" class="resume-btn" target="_blank" rel="noopener noreferrer">Download Resume</a>
+    <div class="scroll-down"><i class="fas fa-chevron-down"></i></div>
+  </header>
+
+  <section id="about" class="section fade-in card-3d">
+    <h2>About Me</h2>
+    <p>Brief bio, experience timeline, and education history. Add timeline here for visual storytelling.</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>2021 - Present</h3>
+          <p>DevOps Engineer at ABC Tech</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>2019 - 2021</h3>
+          <p>Cloud Engineer at XYZ Corp</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="badges" class="section fade-in card-3d">
+  <h2>Certifications & Badges</h2>
+  <p>Verified certifications and achievements. Click to view on Credly.</p>
+  <div class="badge-grid">
+    <a href="https://www.credly.com/badges/86ba8001-b54b-4324-ad09-92a88824d915/public_url" target="_blank" rel="noopener noreferrer">
+      <img src="./creds/hashicorp-certified-terraform-associate-003.png" alt="HashiCorp Certified: Terraform Associate (003)" class="badge-img" />
+    </a>
+    <a href="https://www.credly.com/badges/cb087fe0-673a-4151-8ce7-10d03a36530c/public_url" target="_blank" rel="noopener noreferrer">
+      <img src="./creds/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect – Associate" class="badge-img" />
+    </a>
+    <a href="https://www.credly.com/badges/55211e67-bfae-4d09-9b56-b7d8fe739278/public_url" target="_blank" rel="noopener noreferrer">
+      <img src="./creds/microsoft-certified-azure-fundamentals.png" alt="Microsoft Certified: Azure Fundamentals" class="badge-img" />
+    </a>
+    <a href="https://www.credly.com/badges/50d1dff3-c3eb-44c0-8748-0ea6e53424df/public_url" target="_blank" rel="noopener noreferrer">
+      <img src="./creds/cyberforce-defender.png" alt="Palo Alto CYBERFORCE: Defender" class="badge-img" />
+    </a>
+    <a href="https://www.credly.com/badges/188acab5-55d6-49b6-95de-901ef4c14536/public_url" target="_blank" rel="noopener noreferrer">
+      <img src="./creds/cybersecurity-essentials.png" alt="Cybersecurity Essentials" class="badge-img" />
+    </a>
+    <a href="https://www.credly.com/badges/934deca2-8ae3-4213-98dd-9a08ab391808/public_url" target="_blank" rel="noopener noreferrer">
+      <img src="./creds/ccna-introduction-to-networks.png" alt="CCNA: Introduction to Networks" class="badge-img" />
+    </a>
+    <!-- Add more badges below in similar format -->
+  </div>
+
+  </section>
+  <section id="skills" class="section fade-in card-3d">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <span>CI/CD</span>
+        <div class="bar" data-skill="90%" style="--skill-level: 90%;"></div>
+        <span class="skill-level">Expert</span>
+      </div>
+      <div class="skill">
+        <span>Docker & Kubernetes</span>
+        <div class="bar" data-skill="85%" style="--skill-level: 85%;"></div>
+        <span class="skill-level">Advanced</span>
+      </div>
+      <div class="skill">
+        <span>Infrastructure as Code</span>
+        <div class="bar" data-skill="80%" style="--skill-level: 80%;"></div>
+        <span class="skill-level">Advanced</span>
+      </div>
+      <div class="skill">
+        <span>Cloud Computing</span>
+        <div class="bar" data-skill="88%" style="--skill-level: 88%;"></div>
+        <span class="skill-level">Expert</span>
+      </div>
+      <div class="skill">
+        <span>Monitoring & Logging</span>
+        <div class="bar" data-skill="75%" style="--skill-level: 75%;"></div>
+        <span class="skill-level">Intermediate</span>
+      </div>
+      <div class="skill">
+        <span>Scripting & Automation</span>
+        <div class="bar" data-skill="82%" style="--skill-level: 82%;"></div>
+        <span class="skill-level">Advanced</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section fade-in card-3d">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>CI/CD Pipeline Automation</h3>
+        <p>Automated deployment using GitHub Actions and Terraform on AWS.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      </div>
+      <div class="project-card">
+        <h3>Monitoring with Prometheus</h3>
+        <p>Set up a full monitoring stack with Grafana dashboards.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section fade-in card-3d">
+
+</section>
+
+  <section id="contact" class="section fade-in card-3d">
+    <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+    <p>If you'd like to get in touch, please fill out this form:</p>
+    <div class="google-form-wrapper">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1AfRZ5k9R1UwO7-yJVkbn_u9WEin0F2S8nRfLgSwjLUh9og/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+    </div>
+   <div class="social">
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Abhishek Choudhary | DevOps Engineer
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
